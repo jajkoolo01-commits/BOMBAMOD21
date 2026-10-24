@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bombmod",
+  "version": "${version}",
+  "name": "Bomb Mod",
+  "description": "Nacisnij X, aby otworzyc menu z bombami.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.bombmod.BombMod"],
+    "client": ["com.bombmod.BombModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
